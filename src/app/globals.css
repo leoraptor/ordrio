@@ -13,8 +13,8 @@
   background: white !important;
   border-radius: 100px !important;
   border: 2px solid #7a39ea !important;
-  height: 15px;
-  width: 15px;
+  height: 15px !important;
+  width: 15px !important;
 }
 .MuiSlider-rail {
   background: #e5e6ea !important;
