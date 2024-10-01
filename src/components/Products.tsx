@@ -82,7 +82,7 @@ const Products = () => {
     <div className="w-full ">
       <div className="flex items-center justify-between">
         <p className={`${ProductsStyle.showingResultText}`}>
-          Showing result for "Pringles"
+          {` Showing result for "Pringles"`}
         </p>
         <div
           className={` ${ProductsStyle.recommendedBtn} border-[1px] border-[#e6e6e6]`}
