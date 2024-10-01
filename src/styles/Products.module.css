@@ -1,0 +1,91 @@
+.showingResultText {
+  color: #37445a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.recommendedBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 30px;
+  cursor: pointer;
+  background: white;
+}
+.productBox {
+  background: white;
+  padding: 10px;
+}
+.memberText {
+  background: #f3eefd;
+  border: 1px solid #c5b8fb;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+  width: 150px;
+}
+.produtHeaderText {
+  font-size: 15px;
+  font-weight: 500;
+  color: #302c2c;
+  margin: 10px 0px;
+}
+.price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+.strickPrice {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6f6f6f;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+.priceOff {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 183, 110);
+  margin-left: 10px;
+}
+.gram {
+  color: #04071d;
+  font-size: 15px;
+  font-weight: 500;
+  width: 50%;
+}
+.addBtn {
+  background: #7a39ea;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  width: 50%;
+  padding: 6px 20px;
+}
+.offLable {
+  background: #7a37e0;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4px 6px;
+}
+.heart {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(65, 65, 65);
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 4px;
+  border-radius: 100%;
+}

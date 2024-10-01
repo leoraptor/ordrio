@@ -1,0 +1,26 @@
+.logo {
+  font-style: italic;
+  color: #7b3aed;
+  font-size: 20px;
+  font-weight: bold;
+}
+.selectValue {
+  font-size: 13px;
+  color: #383838;
+  padding-left: 4px;
+  font-weight: 400;
+  white-space: nowrap;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.inputFeild {
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding: 6px 30px 6px 40px;
+  font-size: 15px;
+  color: #505166;
+  font-weight: 500;
+  outline: none;
+  width: 300px;
+}

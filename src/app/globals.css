@@ -2,26 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* global styles here */
+.MuiSlider-thumb {
+  background: white !important;
+  border-radius: 100px !important;
+  border: 2px solid #7a39ea !important;
+  height: 15px;
+  width: 15px;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.MuiSlider-rail {
+  background: #e5e6ea !important;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.MuiSlider-track {
+  background: #7a39ea !important;
+  border: none;
 }

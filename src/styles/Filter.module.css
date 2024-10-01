@@ -1,0 +1,49 @@
+.filteText {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.clearAll {
+  font-size: 12px;
+  font-weight: 400;
+  color: #c8c8c8;
+  text-decoration: underline;
+}
+.categoryText {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+.searchBtn {
+  background: white;
+  padding: 3px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  display: flex;
+  font-size: 15px;
+  color: rgb(65, 65, 65);
+  align-items: center;
+  justify-content: center;
+}
+.labelText {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+.moreText {
+  font-size: 10px;
+  font-weight: 500;
+  color: #7a39e8;
+}
+.minMaxBtn {
+  border: 1px solid #e6e6e6;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  padding: 10px 0px;
+  width: 100%;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
